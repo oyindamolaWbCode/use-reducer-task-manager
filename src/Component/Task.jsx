@@ -45,7 +45,7 @@ const TaskManager = () => {
 
   const handleAddTask = (e) => {
     e.preventDefault();
-    // Get task name and due date
+  
     const taskName = document.getElementById("taskName").value.trim();
     const dueDate = document.getElementById("dueDate").value;
 
